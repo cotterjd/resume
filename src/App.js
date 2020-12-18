@@ -15,6 +15,7 @@ export const A = styled.a`
     color: blue;
   }
 `
+const P = styled.p``
 const Education = styled.table`
   td {
     padding: 10px 10px 10px 0;
@@ -25,10 +26,11 @@ const SubHeader = styled.div`
   justify-content: space-around;
 `
 const Page = styled.div`
-  background-color: #282c34;
-  font-size: calc(10px + 1.5vmin);
+  font-size: calc(10px + 1.3vmin);
   color: white;
-  padding: 0 100px 100px 100px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0 200px 0;
 `
 const Name = styled.span`
   font-size: 1.5em;
@@ -50,8 +52,8 @@ const Table = styled.table`
 `
 const JobHeading = styled.div`
   display: flex;
-  justify-content: space-around;
-  padding: 10px 0;
+  justify-content: space-between;
+  padding: 10px 50px;
   span {
     font-weight: bold;
     font-style: italic;
@@ -97,19 +99,19 @@ function App() {
           <span>Software Developer</span>
           <span>Edmong, OK</span>
         </JobHeading>
-        <div class="job-summary">
+        <P>
           Worked on-site and remotely on a team of three building SPAs for political and public affairs campaigns
-        </div>
+        </P>
         <ProjectHead>Major Projects:</ProjectHead>
         <Project 
           url="https://www.bonfiredata.com/"
           name="Bonfire"
           desc="Bonfire is an SPA that displays data and handles complex searches for millions of records of voter data."
-          stack="Node.js, Express, TypeScript, GraphQL, Apollo Server, Apollo Client, CSS, MSSQL, Sequelize, VueJS, Quasar, Pug, Ramda/Lodash, MongoDB, Mongoose"
+          stack="Node.js, Express, TypeScript, GraphQL, Apollo Server, Apollo Client, CSS, MSSQL, Sequelize, VueJS, Quasar, Pug, Ramda/Lodash, MongoDB, Mongoose, Datadog, PM2"
           list={[
-            "Built entire Node.js/GraphQL/TypeScript backend from scratch. No boilerplates, no frameworks.",
+            "Built entire Node.js/GraphQL/TypeScript backend from scratch. No boilerplates, no frameworks",
             "Built roughly half of frontend",
-            "Optomized csv upload and data export to efficiently upload and export hundreds of thousands of records.",
+            "Optomized csv upload and data export to efficiently upload and export hundreds of thousands of records",
           ]}
         />
       </div>
@@ -119,9 +121,9 @@ function App() {
           <span>Consultant</span>
           <span>OKC/Weatherford, OK</span>
         </JobHeading>
-        <div class="job-summary">
+        <P>
           Worked on-site and remotely autonomously and independently creating web apps/services for clients.
-        </div>
+        </P>
         <ProjectHead>Major Projects:</ProjectHead>
         <Project 
           url="https://www.dynos.io/"
@@ -151,7 +153,7 @@ function App() {
           name="Hoegg Software"
           stack="vanilla JavaScript, Node.js, Express, SASS, Docker, AWS CLI, jQuery, nunjucks, HTML, Digital Ocean, Terraform, Nginx, Concourse, BASH, SSH"
           list={[
-            "Implemented full site redesign using SASS.",
+            "Implemented full site redesign using SASS",
             "Set up CI with BASH, Docker, and AWS CLI",
             "Added blog and contact form to company website",
           ]}
@@ -160,7 +162,7 @@ function App() {
           name="ASAP Energy"
           stack="Wordpress, PHP, HTML, BASH, SSH, Excel, VBA, VBScript, exceljs, PhantomJS, Ramda, CRON"
           list={[
-            "Wordpress, PHP, HTML, BASH, SSH, Excel, VBA, VBScript, exceljs, PhantomJS, Ramda, CRON",
+            "Improved website by adding features and responsiveness using PHP and HTML",
             "Saved labor costs and improved business decisions by building and automating daily reports",
           ]}
         />
@@ -172,32 +174,32 @@ function App() {
           <span>Web Developer</span>
           <span>Oklahoma City, OK</span>
         </JobHeading>
-        <div class="job-summary">
+        <P>
           Hired as a frontend developer, but did a diverse set of tasks on a team of just a few devs on-site and remotely. Worked with Node.js, AngularJS, MySQL, AWS Lamba, Highcharts, Geckoboard, Jade, jQuery, CSS, Bootstrap, 0Auth, ES6, and Ramda
-        </div>
+        </P>
         <ProjectHead>Major Projects:</ProjectHead>
         <W2Project
           name="Flux"
-          desc="is a dynamic web app that tracks the performance and maintenance of Flogistix units"
+          desc="is a dynamic web app that tracks the performance and maintenance of Flogistix units."
           list={[
             "Created password set and reset with 0Auth",
             "Improved responsiveness using Twitter Bootstrap",
-            "Other various bug fixes and improvements.",
+            "Other various bug fixes and improvements",
           ]}
         />
         <W2Project
           name="lamda-dashboard-widgets"
           desc="is a project of lambda functions that push data to Geckoboard widgets. These widgets show financial and operational data for the company in a user-friendly way."
           list={[
-            "Made about a dozen widgets for about a dozen areas. Data was displayed in various ways including pie charts, bar charts, line charts, or just text."
+            "Made about a dozen widgets for about a dozen areas. Data was displayed in various ways including pie charts, bar charts, line charts, or just text"
           ]}
         />
         <W2Project
           name="lamda-flux-analytics"
-          desc="is a project that improved user tracking for Flux"
+          desc="is a project that improved user tracking for Flux."
           list={[
             "Sent UserId to Google Analytics to identify users",
-            "Used Google API to retrieve analytic information and save it to MySQL datab",
+            "Used Google API to retrieve analytic information and save it to MySQL database",
           ]}
         />
         <W2Project
@@ -205,7 +207,7 @@ function App() {
           desc="is a report that estimated the lifespans of operational units."
           list={[
             "Used previous lifespans from units of the same area and type to estimate future release dates and display predictions in a stacked bar chart",
-            "Was told to use the average of previous lifespans to estimate current lifespans, but went ahead added median, mode, and linear regression as optional alternatives. I added these alternatives on my own time, and convinced management to use linear regression.",
+            "Was told to use the average of previous lifespans to estimate current lifespans, but went ahead added median, mode, and linear regression as optional alternatives. I added these alternatives on my own time, and convinced management to use linear regression",
           ]}
         />
       </div>
@@ -216,16 +218,16 @@ function App() {
           <span>Software Developer</span>
           <span>Weatherford, OK</span>
         </JobHeading>
-        <div class="job-summary">
+        <P>
           Started out in C#.NET and then later moved to full-stack JavaScript. Worked on a team of ten to fifteen devs in an agile development environment designing, developing, and supporting robust web apps including SPAs using a range of technologies
-        </div>
+        </P>
         <ProjectHead>Major Projects:</ProjectHead>
         <W2Project
           name="Fieldbook ERP"
           desc="is a robust dynamic web application for operations and accounting of oil service companies that’s hosted by AWS."
           list={[
             "While working on Fieldbook I gained experience in C#.NET, Razor web forms, AJAX, JSON, jQuery, Node.js, MS Sql Server, unit testing, Nhibernate, and FubuMVC",
-            "Learning basic accounting to develop accounting featues.", 
+            "Learning basic accounting to develop accounting featues", 
             "Major contributions included building payroll, ticket fields, SqlQueryBuilder, and the approval system",
             "Quickly picked up Node.js while porting the API from C#",
           ]}
@@ -234,7 +236,7 @@ function App() {
           name="FieldSavvy"
           desc="is an SPA for communicating in the oil service industry built for mobile using Phonegap, AngularJS, Node.js, and MySQL. Using Git for version control."
           list={[
-            "Quickly learned and used AngularJS and Mobile Angular UI.",
+            "Quickly learned and used AngularJS and Mobile Angular UI",
             "Designed and implemented the testing framework and convention",
           ]}
         />

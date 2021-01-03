@@ -1,8 +1,8 @@
-import logo from './logo.svg'
 import Project from './components/Project'
 import W2Project from './components/W2Project'
 import styled from 'styled-components'
 import './App.css'
+import githubIcon from './images/github.png'
 
 export const A = styled.a`
   :link {
@@ -62,17 +62,21 @@ const JobHeading = styled.div`
 const ProjectHead = styled.div`
   padding: 15px 0;
 `
+const GithubIcon = styled.a`
+  transform: translateY(10px);
+`
 
 function App() {
   return (
     <Page>
       <Header>
         <Name>Jordan Cotter</Name>
+        &nbsp;
+        <GithubIcon href="https://github.com/cotterjd"><img src={githubIcon} alt="github icon"/></GithubIcon>
       </Header>
       <SubHeader>
         <span>cotterjd@yahoo.com</span>
         <span>405 738 5435</span>
-        <A href="https://github.com/cotterjd">github.com/cotterjd</A>
       </SubHeader>
       <SectionHeading>Technical Skills:</SectionHeading>
       <Table>

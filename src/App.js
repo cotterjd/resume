@@ -97,7 +97,7 @@ function App() {
           <span>2019 - 2020</span>
           <span>WPA Intelligence</span>
           <span>Software Developer</span>
-          <span>Edmong, OK</span>
+          <span>Edmond, OK</span>
         </JobHeading>
         <P>
           Worked on-site and remotely on a team of three building SPAs for political and public affairs campaigns

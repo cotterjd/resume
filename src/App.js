@@ -81,21 +81,32 @@ function App() {
       <SectionHeading>Technical Skills:</SectionHeading>
       <Table>
         <tr>
-          <td>JavaScript (7+ yrs)</td>
+          <td>JavaScript (8+ yrs)</td>
           <td>Node.js (6+ yrs)</td>
           <td>GraphQL/REST (3+ yrs)</td>
-          <td>React (2+ yrs)</td>
+          <td>React (3+ yrs)</td>
           <td>TypeScript (1+ yr)</td>
         </tr>
         <tr>
-          <td>Agile Methodology</td>
+          <td>VueJS (1+ yr)</td>
+          <td>Go</td>
           <td>SQL/NoSQL</td>
-          <td>CSS/SASS</td>
+          <td>Agile Methodology</td>
           <td>OOP/FP</td>
-          <td>VueJS</td>
         </tr>
       </Table>
       <SectionHeading>Employment History:</SectionHeading>
+      <div class="job-details">
+        <JobHeading>
+          <span>2021</span>
+          <span>Lemonbrew Technologies</span>
+          <span>Sr. Software Engineer</span>
+          <span>Charlotte, NC</span>
+        </JobHeading>
+        <P>
+          Built apps in React/Typescript and services in NodeJS/Golang. Also worked with AWS services including S3, SQS, and Lambda
+        </P>
+      </div>
       <div class="job-details">
         <JobHeading>
           <span>2019 - 2020</span>

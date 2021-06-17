@@ -92,8 +92,8 @@ function App() {
           <td>VueJS (1+ yr)</td>
           <td>Go</td>
           <td>SQL/NoSQL</td>
-          <td>Agile Methodology</td>
           <td>AWS</td>
+          <td>Agile Methodology</td>
         </tr>
       </Table>
       <SectionHeading>Employment History:</SectionHeading>
@@ -129,9 +129,9 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2016 - 2019</span>
+          <span> April 2016 - Oct 2019</span>
           <span>Consultant</span>
-          <span>Oklahoma City, OK</span>
+          <span>Oklahoma City/Weatherford, OK</span>
         </JobHeading>
         <P>
           Worked on-site and remotely autonomously and independently creating web apps/services for clients.
@@ -181,7 +181,7 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2016</span>
+          <span>April 2016 - Aug 2016</span>
           <span>Flogistix</span>
           <span>Web Developer</span>
           <span>Oklahoma City, OK</span>
@@ -225,7 +225,7 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2013 - 2016</span>
+          <span>Feb 2013 - Mar 2016</span>
           <span>Nine Collective</span>
           <span>Software Developer</span>
           <span>Weatherford, OK</span>

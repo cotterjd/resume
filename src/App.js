@@ -105,8 +105,15 @@ function App() {
           <span>Charlotte, NC</span>
         </JobHeading>
         <P>
-          Lemonbrew is a Real Estate/Finance company where I worked with a distributed team across America to build frontend applications in React/Typescript and services in NodeJS/Golang in an event-driven micro-service architecture. Also worked with AWS services including S3, SQS, and Lambda.
+          Lemonbrew is a Real Estate/Finance company where I worked with a distributed team across America.
         </P>
+        <BulletPoints 
+          list={[
+            "Worked with Golang, React, AWS(S3/SQS/Lambda), Node.js, Express, TypeScript, Keystone(GraphQL), Apollo Client, CSS, styled-components, MongoDB, and Storybook",
+            "Built frontend apps in React/TypeScript",
+            "Built services in NodeJS/Golang in an event-driven, micro-service architecture",
+          ]}
+        />
       </div>
       <div class="job-details">
         <JobHeading>

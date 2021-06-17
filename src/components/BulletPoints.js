@@ -1,6 +1,4 @@
 import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { A } from '../App.js'
 
 function BulletPoints(props) {
   return (
@@ -14,4 +12,4 @@ BulletPoints.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string),
 }
 
-export default Project;
+export default BulletPoints;

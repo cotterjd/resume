@@ -91,25 +91,25 @@ function App() {
           <td>VueJS (1+ yr)</td>
           <td>Go</td>
           <td>SQL/NoSQL</td>
+          <td>AWS</td>
           <td>Agile Methodology</td>
-          <td>OOP/FP</td>
         </tr>
       </Table>
       <SectionHeading>Employment History:</SectionHeading>
       <div class="job-details">
         <JobHeading>
-          <span>2021</span>
+          <span>Jan 2021 - present</span>
           <span>Lemonbrew Technologies</span>
           <span>Sr. Software Engineer</span>
           <span>Charlotte, NC</span>
         </JobHeading>
         <P>
-          Built apps in React/Typescript and services in NodeJS/Golang. Also worked with AWS services including S3, SQS, and Lambda
+          Lemonbrew is a Real Estate/Finance company where I worked with a distributed team across America to build frontend applications in React/Typescript and services in NodeJS/Golang in an event-driven micro-service architecture. Also worked with AWS services including S3, SQS, and Lambda.
         </P>
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2019 - 2020</span>
+          <span>Nov 2019 - Dec 2020</span>
           <span>WPA Intelligence</span>
           <span>Software Developer</span>
           <span>Edmond, OK</span>
@@ -132,9 +132,9 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2016 - 2019</span>
+          <span> April 2016 - Oct 2019</span>
           <span>Consultant</span>
-          <span>OKC/Weatherford, OK</span>
+          <span>Oklahoma City/Weatherford, OK</span>
         </JobHeading>
         <P>
           Worked on-site and remotely autonomously and independently creating web apps/services for clients.
@@ -184,7 +184,7 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2016</span>
+          <span>April 2016 - Aug 2016</span>
           <span>Flogistix</span>
           <span>Web Developer</span>
           <span>Oklahoma City, OK</span>
@@ -228,7 +228,7 @@ function App() {
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2013 - 2016</span>
+          <span>Feb 2013 - Mar 2016</span>
           <span>Nine Collective</span>
           <span>Software Developer</span>
           <span>Weatherford, OK</span>

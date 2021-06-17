@@ -1,5 +1,6 @@
 import Project from './components/Project'
 import W2Project from './components/W2Project'
+import BulletPoints from './components/BulletPoints'
 import styled from 'styled-components'
 import './App.css'
 import githubIcon from './images/github.png'
@@ -92,24 +93,24 @@ function App() {
           <td>Go</td>
           <td>SQL/NoSQL</td>
           <td>Agile Methodology</td>
-          <td>OOP/FP</td>
+          <td>AWS</td>
         </tr>
       </Table>
       <SectionHeading>Employment History:</SectionHeading>
       <div class="job-details">
         <JobHeading>
-          <span>2021</span>
+          <span>Jan 2021 - Present</span>
           <span>Lemonbrew Technologies</span>
           <span>Sr. Software Engineer</span>
           <span>Charlotte, NC</span>
         </JobHeading>
         <P>
-          Built apps in React/Typescript and services in NodeJS/Golang. Also worked with AWS services including S3, SQS, and Lambda
+          Lemonbrew is a Real Estate/Finance company where I worked with a distributed team across America to build frontend applications in React/Typescript and services in NodeJS/Golang in an event-driven micro-service architecture. Also worked with AWS services including S3, SQS, and Lambda.
         </P>
       </div>
       <div class="job-details">
         <JobHeading>
-          <span>2019 - 2020</span>
+          <span>Nov 2019 - Dec 2020</span>
           <span>WPA Intelligence</span>
           <span>Software Developer</span>
           <span>Edmond, OK</span>
@@ -118,14 +119,10 @@ function App() {
           Worked on-site and remotely on a team of three building SPAs for political and public affairs campaigns
         </P>
         <ProjectHead>Major Projects:</ProjectHead>
-        <Project 
-          url="https://www.bonfiredata.com/"
-          name="Bonfire"
-          desc="Bonfire is an SPA that displays data and handles complex searches for millions of records of voter data."
-          stack="Node.js, Express, TypeScript, GraphQL, Apollo Server, Apollo Client, CSS, MSSQL, Sequelize, VueJS, Quasar, Pug, Ramda/Lodash, MongoDB, Mongoose, Datadog, PM2"
+        <BulletPoints 
           list={[
+            "Worked with Node.js, Express, TypeScript, GraphQL, Apollo Server, Apollo Client, CSS, MSSQL, Sequelize, VueJS, Quasar, Pug, Ramda/Lodash, MongoDB, Mongoose, Datadog, PM2",
             "Built entire Node.js/GraphQL/TypeScript backend from scratch. No boilerplates, no frameworks",
-            "Built roughly half of frontend",
             "Optomized csv upload and data export to efficiently upload and export hundreds of thousands of records",
           ]}
         />
@@ -134,7 +131,7 @@ function App() {
         <JobHeading>
           <span>2016 - 2019</span>
           <span>Consultant</span>
-          <span>OKC/Weatherford, OK</span>
+          <span>Oklahoma City, OK</span>
         </JobHeading>
         <P>
           Worked on-site and remotely autonomously and independently creating web apps/services for clients.

@@ -110,8 +110,8 @@ function App() {
         <BulletPoints 
           list={[
             "Worked with Golang, React, AWS(S3/SQS/Lambda), Node.js, Express, TypeScript, Keystone(GraphQL), Apollo Client, CSS, styled-components, MongoDB, and Storybook",
-            "Built frontend apps in React/TypeScript",
-            "Built services in NodeJS/Golang in an event-driven, micro-service architecture",
+            "Built apps in React/TypeScript and services in NodeJS/Golang in an event-driven, micro-service architecture",
+            "Built private npm and Go packages"
           ]}
         />
       </div>

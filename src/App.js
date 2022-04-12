@@ -82,17 +82,17 @@ function App() {
       <SectionHeading>Technical Skills:</SectionHeading>
       <Table>
         <tr>
-          <td>JavaScript (8+ yrs)</td>
-          <td>Node.js (6+ yrs)</td>
-          <td>GraphQL/REST (3+ yrs)</td>
-          <td>React (3+ yrs)</td>
-          <td>TypeScript (1+ yr)</td>
+          <td>JavaScript (9+ yrs)</td>
+          <td>Node.js (8+ yrs)</td>
+          <td>GraphQL/REST (5+ yrs)</td>
+          <td>React (4+ yrs)</td>
+          <td>TypeScript (3+ yr)</td>
         </tr>
         <tr>
-          <td>VueJS (1+ yr)</td>
+          <td>VueJS (3+ yr)</td>
           <td>Go</td>
           <td>SQL/NoSQL</td>
-          <td>AWS</td>
+          <td>AWS (S3, SQS, Lambda)</td>
           <td>Agile Methodology</td>
         </tr>
       </Table>

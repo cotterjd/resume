@@ -76,7 +76,7 @@ function App() {
         <GithubIcon href="https://github.com/cotterjd"><img src={githubIcon} alt="github icon"/></GithubIcon>
       </Header>
       <SubHeader>
-        <span>cotterjd@yahoo.com</span>
+        <span>jordandanielcotter@gmail.com</span>
         <span>405 738 5435</span>
       </SubHeader>
       <SectionHeading>Technical Skills:</SectionHeading>
@@ -90,7 +90,7 @@ function App() {
         </tr>
         <tr>
           <td>VueJS (3+ yr)</td>
-          <td>Go</td>
+          <td>Golang</td>
           <td>SQL/NoSQL</td>
           <td>AWS (S3, SQS, Lambda)</td>
           <td>Agile Methodology</td>
@@ -99,7 +99,26 @@ function App() {
       <SectionHeading>Employment History:</SectionHeading>
       <div class="job-details">
         <JobHeading>
-          <span>Jan 2021 - Present</span>
+          <span>July 2022 - Present</span>
+          <span>Kahoa</span>
+          <span>Senior Full Stack Software Developer</span>
+          <span>Lehi, Utah</span>
+        </JobHeading>
+        <P>
+          Kahoa (formerly SolutionStream) is a consulting firm where I mostly focused on the frontend using React and VueJS.
+        </P>
+        <BulletPoints 
+          list={[
+            "Worked with React, VueJS, TypeScript, CSS, styled-components, and Storybook",
+            "Contributed to real-time app using VueJS and sockets",
+            "Built an app from the ground up using React, Redux, and styled-components that helped people care for their elderly loved ones",
+            "Used bench time to keep my backend skills sharp working with Golang, Node.js, Postgres, Prisma(GraphQL), and Apollo Server"
+          ]}
+        />
+      </div>
+      <div class="job-details">
+        <JobHeading>
+          <span>Jan 2021 - August 2021</span>
           <span>Lemonbrew Technologies</span>
           <span>Sr. Software Engineer</span>
           <span>Charlotte, NC</span>
